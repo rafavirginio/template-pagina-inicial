@@ -1,0 +1,433 @@
+ /* Reset CSS*/
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: 'Nunito', sans-serif;
+ }
+ 
+ header {
+     height: 300px;
+     background-color: rgb(87, 131, 87);
+ }
+ /* Menu Principal (Verde) */
+ 
+ .main-menu {
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     font-family: 'Nunito', sans-serif;
+     text-align: center;
+     height: 6rem;
+     margin-top: -30px;
+     width: 80%;
+     margin: auto;
+     border-bottom: 1px solid white;
+     position: relative;
+ }
+ 
+ .logo h1 {
+     margin-top: 60px;
+     font-size: 15px;
+ }
+ 
+ .right-menu {
+     display: flex;
+     margin-top: 65px;
+     list-style: none;
+ }
+ 
+ .right-menu li {
+     margin-left: 15px;
+     padding: 0;
+ }
+ 
+ .right-menu li:hover {
+     cursor: pointer;
+     color: #ccc;
+ }
+ 
+ .menu-body {
+     background-color: rgb(87, 131, 87);
+     height: 160px;
+ }
+ 
+ .template {
+     display: flex;
+     justify-content: center;
+     color: white;
+     border-top: 15px solid rgb(87, 131, 87);
+ }
+ 
+ .seta-left {
+     width: 4rem;
+     height: 4rem;
+     cursor: pointer;
+ }
+ 
+ .seta-right {
+     width: 4rem;
+     height: 4rem;
+     cursor: pointer;
+ }
+ 
+ .seta-left:hover {
+     width: 4.5rem;
+ }
+ 
+ .seta-right img:hover {
+     width: 4.5rem;
+ }
+ 
+ .template-texts span {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     margin-left: 1rem;
+     font-weight: bold;
+     font-size: 20px;
+ }
+ 
+ .template-texts span:nth-of-type(1) {
+     font-weight: normal;
+     font-size: 20px;
+ }
+ 
+ .template-texts p {
+     margin-left: 1rem;
+ }
+ /* Rodapé do Menu */
+ 
+ .footer1 {
+     color: white;
+     background-color: rgb(30, 30, 30);
+     font-size: 0.8rem;
+     height: 70px;
+     text-align: center;
+     padding-top: 6px;
+ }
+ /* Primeiro container, Areas com as Imagens */
+ 
+ .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     height: clamp(40vh 45vh 50vh);
+     margin: 1rem;
+     padding: 1rem;
+     text-align: center;
+ }
+ 
+ .text-icons img {
+     width: 7rem;
+     height: 7rem;
+ }
+ 
+ .text-icons h2 {
+     border: 5px solid white;
+ }
+ 
+ .text-icons p {
+     border: 5px solid white;
+ }
+ 
+ .text-icons:nth-of-type(2) h2 {
+     color: rgb(26, 195, 218);
+ }
+ /* Segundo Container, Imagens e Área cinza da Página*/
+ 
+ .text-icons-center {
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color: rgb(230, 230, 230);
+     text-align: center;
+     padding: 1rem 2rem;
+ }
+ 
+ .boxes {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+ 
+ .box1,
+ .box2,
+ .box3,
+ .box4 {
+     width: 250px;
+     height: 150px;
+     margin: 0.5rem;
+     background-color: rgb(200, 200, 200);
+     padding: 2.5rem;
+ }
+ 
+ .box2 {
+     background-color: grey;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ .box2 img {
+     width: 2rem;
+     height: 2rem;
+     margin: -0.5rem;
+ }
+ /* Container 3, com as Imagens */
+ 
+ .container3 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     height: clamp(40vh 45vh 50vh);
+     margin: 2rem;
+     padding: 1rem;
+     text-align: center;
+ }
+ 
+ .text-icons-bottom {
+     border: 10px solid white;
+ }
+ 
+ .text-icons-bottom img {
+     width: 2rem;
+     height: 2rem;
+ }
+ 
+ .circle {
+     background-color: rgb(200, 200, 200);
+     color: white;
+     width: 7rem;
+     height: 7rem;
+     border-radius: 100px;
+     padding: 2rem;
+     align-items: center;
+ }
+ 
+ .circle3 {
+     background-color: rgb(26, 195, 218);
+     color: white;
+     width: 7rem;
+     height: 7rem;
+     border-radius: 100px;
+     padding: 2rem;
+     align-items: center;
+ }
+ 
+ .circle img {
+     margin-left: 50px;
+     margin-top: 40px;
+ }
+ /* Container 4, Area do pequeno vídeo */
+ 
+ .container4 {
+     height: 260px;
+     background-color: black;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .video-content {
+     display: flex;
+     justify-content: center;
+     text-align: left;
+     margin-top: 20px;
+ }
+ 
+ .video-content p {
+     color: white;
+     font-size: 0.9rem;
+ }
+ 
+ a img {
+     height: 200px;
+ }
+ 
+ .container4 h1 {
+     color: white;
+     font-size: 1rem;
+ }
+ 
+ button {
+     background-color: rgb(26, 195, 218);
+     color: white;
+     width: 80px;
+     height: 30px;
+     border-radius: 2px;
+     cursor: pointer;
+     border: 0;
+     box-shadow: 2px 2px 0 1px rgb(125, 185, 232);
+ }
+ 
+ button:hover {
+     background-color: rgb(0, 110, 255);
+     border: 0;
+ }
+ 
+ button[type="button"] {
+     border: none;
+     outline: none;
+ }
+ 
+ .video-text button {
+     margin-top: 5px;
+ }
+ /*Container 5, Beautiful Layouts e LOGO */
+ 
+ .container5 {
+     display: flex;
+     padding: 1rem;
+     justify-content: center;
+ }
+ 
+ .beautiful-layouts p {
+     border-top: 15px solid white;
+ }
+ 
+ grid {
+     display: grid;
+     grid-template-areas: "logo logo logo" "logo logo logo";
+     color: rgb(0, 110, 255);
+     border: 0 10px 10px 10px solid green;
+ }
+ 
+ .logo-grid {
+     border: 8px solid white;
+     margin-bottom: 5px;
+ }
+ 
+ .logo-grid p {
+     color: black;
+     font-size: 15px;
+ }
+ 
+ .logo-grid:nth-of-type(2) {
+     color: black;
+ }
+ 
+ .logo-grid:nth-of-type(4) {
+     color: black;
+ }
+ 
+ .logo-grid:nth-of-type(6) {
+     color: black;
+ }
+ /* Container 6, Area de Links e Contatos */
+ 
+ .container6 {
+     background-color: black;
+     color: white;
+     justify-content: space-evenly;
+     display: flex;
+     flex-wrap: wrap;
+     border: 10px solid black;
+ }
+ 
+ .icons-media-social {
+     justify-content: center;
+ }
+ 
+ .icons-media-social img {
+     width: 25px;
+     height: 25px;
+     cursor: pointer;
+ }
+ 
+ .icons-media-social img:hover {
+     background-color: rgb(26, 195, 218);
+ }
+ /* Rodapé */
+ 
+ footer {
+     background-color: rgb(26, 195, 218);
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     height: 40px;
+ }
+ 
+ footer a {
+     padding-top: 8px;
+ }
+ 
+ a:visited {
+     color: white;
+ }
+ /* Desktop version */
+ 
+ @media screen and (min-width: 600px) {
+     .logo h1 {
+         font-size: 1rem;
+         margin-bottom: 20px;
+     }
+     .right-menu li {
+         font-size: 1rem;
+         margin-bottom: 20px;
+     }
+     .text-icons {
+         width: 18rem;
+         margin-top: 1.8rem;
+     }
+     .text-icons img {
+         width: 12rem;
+         height: 12rem;
+     }
+     .text-icons-bottom {
+         border-left: 50px solid white;
+         border-right: 50px solid white;
+     }
+     .text-icons-bottom img {
+         width: 4rem;
+         height: 4rem;
+     }
+     .circle {
+         color: white;
+         width: 13rem;
+         height: 13rem;
+         border-radius: 100px;
+         padding: 4rem;
+         align-items: center;
+     }
+     .circle3 {
+         width: 13rem;
+         height: 13rem;
+         border-radius: 100px;
+         padding: 4rem;
+         align-items: center;
+     }
+     .circle img {
+         margin-left: 90px;
+         margin-top: 70px;
+     }
+     .container4 {
+         height: 250px;
+         background-color: black;
+         display: flex;
+         justify-content: center;
+     }
+     .container4 h1 {
+         color: white;
+         font-size: 1.5rem;
+     }
+     .video-content p {
+         font-size: 1.5rem;
+     }
+     .beautiful-layouts {
+         border: 10px solid white;
+         font-size: 1.5rem;
+         padding: 0 2rem 0 1rem;
+     }
+     .logo-grid {
+         border: 5px solid white;
+         margin-bottom: 5px;
+         font-size: 1.5rem;
+     }
+     .logo-grid p {
+         color: black;
+         font-size: 1.5rem;
+     }
+ }
